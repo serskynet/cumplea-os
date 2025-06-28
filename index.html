@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🎉 Feliz Cumpleaños, Reina Bella 🎉</title>
+  <link rel="stylesheet" href="sstyles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Emojis que lanzan besos -->
+  <div class="emoji-besos">😘</div>
+  <div class="emoji-besos delay">😘</div>
+
+  <!-- Texto de bienvenida -->
+  <div class="bienvenida">
+    <h1>🎉 ¡Feliz Cumpleaños, Reina Bella! 🎉</h1>
+    <p>Hoy celebramos la vida de una mujer maravillosa, llena de luz, fuerza y amor. 💐</p>
+  </div>
+
+  <!-- Galería de fotos -->
+    <!-- Galería de fotos en carrusel circular -->
+<div class="galeria-circular">
+  <div class="carrusel-circular" id="carrusel-circular">
+    <img src="foto_mejorada1.jpg" alt="Foto 1" class="item-carrusel">
+    <img src="foto_mejorada2.jpg" alt="Foto 2" class="item-carrusel">
+    <img src="foto_mejorada3.jpg" alt="Foto 3" class="item-carrusel">
+    <img src="foto_mejorada4.jpg" alt="Foto 4" class="item-carrusel">
+  </div>
+</div>
+
+  <!-- Dedicatoria -->
+  <div class="dedicatoria">
+    <p>
+      Cada flor que ves hoy es un reflejo de ti: fuerte, hermosa, única. Gracias por tu alegría, tu ternura, y por ser el corazón de quienes te aman.  
+      Hoy, el mundo es mejor porque tú estás en él 💖
+    </p>
+  </div>
+
+  <audio id="musica" preload="auto" autoplay loop hidden>
+  <source src="Cumpleaños de Ensueño.mp3" type="audio/mpeg">
+  Tu navegador no soporta audio HTML5.
+</audio>
+<!-- Agrega este botón en tu HTML -->
+<button id="play-music">Reproducir música</button>
+<audio id="musica" src="Cumpleaños de Ensueño.mp3"></audio>
+
+<!-- Mensaje final y fotos -->
+<div class="firma-final">
+  <p>Con mucho amor,<br>
+    <strong>Dayana Álvarez y Sergio Álvarez</strong>
+  </p>
+ <div id="broma-foto">
+  <img id="foto-broma" src="WhatsApp Image 2025-06-27 at 11.40.18 PM.jpeg" alt="Foto graciosa" />
+  <p id="mensaje-foto">Ups... esa no era la foto 😅</p>
+  <button id="cambiar-foto">Perdón, era esta la verdadera foto</button>
+</div>
+</div>
+
+  <!-- Scripts externos -->
+  <script src="petalos.js"></script>
+  <script src="musica.js"></script>
+
+</body>
+</html>
